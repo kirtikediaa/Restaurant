@@ -27,8 +27,8 @@ function createMenu() {
       );
       menu.appendChild(
         createMenuItem(
-          "Totopos Y Salsa - Chips & Salsa",
-          "A basket of our homemade chips and a container of our homemade salsa"
+          "Chips & Salsa",
+          "A basket of our homemade homemade salsa"
         )
       );
       menu.appendChild(
