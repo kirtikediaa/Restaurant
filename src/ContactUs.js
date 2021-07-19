@@ -9,7 +9,7 @@ function createContact(){
     phno.textContent="PHONE NO :90000001234";
 
     const emailid=document.createElement("p");
-    emailid.textContent="Abcd@gmail.com";
+    emailid.textContent="EMAIL ID :Abcd@gmail.com";
 
     contact.appendChild(personName);
     contact.appendChild(phno);
@@ -18,7 +18,7 @@ function createContact(){
 
 }
 function loadContact(){
-const main = document.getElementById("main");
+const main = document.getElementById("mainDisp");
 main.textContent = "";
 main.appendChild(createContact());
 }

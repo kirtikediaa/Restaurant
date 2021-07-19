@@ -63,17 +63,14 @@ function createMenuItem(name, description) {
     const foodDescription = document.createElement("p");
     foodDescription.textContent = description;
 
-    // const foodImage = document.createElement("img");
-    // foodImage.src = `pizzas/${name.toLowerCase()}.png`;
-
-    // menuItem.appendChild(foodImage);
+    //food img code if we wnt to add pics
     menuItem.appendChild(food);
     menuItem.appendChild(foodDescription);
   
     return menuItem;
 }
 function loadMenu() {
-    const main = document.getElementById("main");
+    const main = document.getElementById("mainDisp");
     main.textContent = "";
     main.appendChild(createMenu());
   }

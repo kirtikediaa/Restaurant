@@ -22,7 +22,7 @@ return div1;
 }
 
 function loadHome() {
-    const main = document.getElementById("main");
+    const main = document.getElementById("mainDisp");
     main.textContent = "";
     main.appendChild(Home());
   }
